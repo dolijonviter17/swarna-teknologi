@@ -4,16 +4,15 @@ export default function MainPage() {
   return (
     <section className="text-blue-600 body-font">
       <div className="container px-5 py-24 mx-auto">
-        <div className="flex flex-wrap -mx-4 -mb-10">
+        <div className="flex flex-wrap -mb-10">
           <div className="sm:w-1/2 px-20 w-1/4">
             <img
               alt="content"
               className="object-cover object-center h-full w-100"
               src="/Assets/Pair-programming-amico.png"
             />
-            <div className=" overflow-hidden"></div>
           </div>
-          <div className="sm:w-1/2 w-1/2 px-5">
+          <div className="sm:w-1/2 lg:w-1/2 px-5">
             <h2 className="title-font text-4xl font-black text-blue-100 mb-3 text-left">
               Tech Team as a Service
             </h2>
