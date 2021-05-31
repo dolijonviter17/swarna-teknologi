@@ -18,7 +18,7 @@ export default function Navbar() {
             </svg>
             <span className="ml-3 text-xl">Tailblocks</span>
           </a>
-          <nav className="md:ml-auto font-black flex flex-wrap items-center text-2xl justify-center">
+          <nav className="md:ml-auto font-black flex flex-wrap items-center text-sm justify-center">
             <a className="mr-10 hover:text-gray-900">Services & Pricing</a>
             <a className="mr-10 hover:text-gray-900">Company</a>
             <a className="mr-10 hover:text-gray-900">Talk to us</a>
