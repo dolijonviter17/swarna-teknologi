@@ -2,14 +2,14 @@ import SectionTitle from "../component/support/SectionTitle";
 
 export default function SheduleCallPage() {
   return (
-    <section class="bg-blue-200 text-blue-600 body-font">
-      <div class="container px-5 py-24 mx-auto">
-        <div class="flex flex-wrap -mx-4 -mb-10">
-          <div class="sm:w-1/2 px-20">
-            <h2 class="title-font text-4xl font-black text-blue-100 mb-3 text-left">
+    <section className="bg-blue-200 text-blue-600 body-font">
+      <div className="container px-5 py-24 mx-auto">
+        <div className="flex flex-wrap -mx-4 -mb-10">
+          <div className="sm:w-1/2 px-20">
+            <h2 className="title-font text-4xl font-black text-blue-100 mb-3 text-left">
               Wanna get know more we can help you?
             </h2>
-            <p class="leading-relaxed text-base text-black-100 mb-6">
+            <p className="leading-relaxed text-base text-black-100 mb-6">
               Find more options when looking for a software developer.
               Pay-as-you-go, of course!
             </p>
@@ -17,11 +17,11 @@ export default function SheduleCallPage() {
               Learn Our Services
             </button>
           </div>
-          <div class="sm:w-1/2 px-5">
-            <div class="rounded-lg overflow-hidden">
+          <div className="sm:w-1/2 px-5">
+            <div className="rounded-lg overflow-hidden">
               <img
                 alt="content"
-                class="object-cover object-center h-full w-full"
+                className="object-cover object-center h-full w-full"
                 src="/Assets/Brainstorming-pana.png"
               />
             </div>

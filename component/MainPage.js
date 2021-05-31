@@ -2,22 +2,22 @@ import SectionTitle from "../component/support/SectionTitle";
 
 export default function MainPage() {
   return (
-    <section class="text-blue-600 body-font">
-      <div class="container px-5 py-24 mx-auto">
-        <div class="flex flex-wrap -mx-4 -mb-10">
-          <div class="sm:w-1/2 px-20 w-1/4">
+    <section className="text-blue-600 body-font">
+      <div className="container px-5 py-24 mx-auto">
+        <div className="flex flex-wrap -mx-4 -mb-10">
+          <div className="sm:w-1/2 px-20 w-1/4">
             <img
               alt="content"
-              class="object-cover object-center h-full w-100"
+              className="object-cover object-center h-full w-100"
               src="/Assets/Pair-programming-amico.png"
             />
-            <div class=" overflow-hidden"></div>
+            <div className=" overflow-hidden"></div>
           </div>
-          <div class="sm:w-1/2 w-1/2 px-5">
-            <h2 class="title-font text-4xl font-black text-blue-100 mb-3 text-left">
+          <div className="sm:w-1/2 w-1/2 px-5">
+            <h2 className="title-font text-4xl font-black text-blue-100 mb-3 text-left">
               Tech Team as a Service
             </h2>
-            <p class="leading-relaxed text-base text-black-100 mb-6">
+            <p className="leading-relaxed text-base text-black-100 mb-6">
               Find more options when looking for a software developer.
               Pay-as-you-go, of course!
             </p>
